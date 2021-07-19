@@ -1,11 +1,12 @@
-
+{% extends 'base.html' %}
 <head>
-
+  {% block head %}
     <title>Elevate Myanmar</title>
+    {% endblock %}
 </head>
 <body class="vh-100">
 
-   
+  {% block body %}
       <div class="container-fluid bg-white h-25 d-none d-lg-block py-lg-3" id="mentor-banner" >
         <div class="row align-middle">
             <div class="col-12">
@@ -26,5 +27,5 @@
    
 
   
-
+   {% endblock %}
 </body>

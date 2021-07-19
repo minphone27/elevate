@@ -1,11 +1,12 @@
-
+{% extends 'base.html' %}
 <head>
- 
+  {% block head %}
     <title>Elevate Myanmar</title>
+    {% endblock %}
 </head>
 <body style="margin: 0%;padding: 0%;box-sizing: border-box;">
 
-   
+  {% block body %}
 
     <div class="container-fluid p-0" style="overflow-x: hidden;">
       <div class="row no-gutters">
@@ -91,5 +92,5 @@
    
 
  
-
+    {% endblock %}
 </body>

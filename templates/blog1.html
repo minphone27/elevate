@@ -1,9 +1,16 @@
+{% extends 'base.html' %}
+
 <head>
-    
+    {% block head %}
+
     <title>Blog 1</title>
+
+    {% endblock %}
+
 </head>
 <body>
- 
+    {% block body %}
+
       
      <div class="container">
          <div class="row">
@@ -33,5 +40,6 @@
              </div>
          </div>
      </div>
-  
+     {% endblock %}
+
 </body>

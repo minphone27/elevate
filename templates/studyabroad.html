@@ -1,11 +1,12 @@
-
+{% extends 'base.html' %}
 <head>
- 
+    {% block head %}
   
     <title>Study abroad and choosing college</title>
+    {% endblock %}
 </head>
 <body class="vh-100">
-
+    {% block body %}
     <div class="container-fluid bg-light h-50 d-none d-xl-block py-lg-3" id="mentor-banner" >
         <div class="row align-middle">
             <div class="col-12">
@@ -84,5 +85,5 @@
 
 
 
-
+{% endblock %}
 </body>

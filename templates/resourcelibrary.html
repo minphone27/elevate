@@ -1,11 +1,12 @@
-
+{% extends 'base.html' %}
 <head>
-    
+  {% block head %}
     <title>Resource Library</title>
+    {% endblock %}
 </head>
 
 <body class="vh-100">
-
+  {% block body %}
 
       <div class="container-fluid bg-light h-50 d-none d-xl-block py-lg-3" id="mentor-banner" >
         <div class="row align-middle">
@@ -57,5 +58,5 @@
     </div>
 
 
-  
+    {% endblock %}
 </body>
