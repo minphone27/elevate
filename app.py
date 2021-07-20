@@ -71,9 +71,7 @@ def resourcelibrary():
     return render_template("resourcelibrary.html")
 
 
-@app.route("/studyabroad")
-def studyabroad():
-    return render_template("studyabroad.html")
+
 
 
 
