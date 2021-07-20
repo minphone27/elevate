@@ -70,9 +70,6 @@ def blgs():
 def resourcelibrary():
     return render_template("resourcelibrary.html")
 
-@app.route("/peermentor")
-def peermentor():
-    return render_template("peermentor.html")
 
 @app.route("/studyabroad")
 def studyabroad():
