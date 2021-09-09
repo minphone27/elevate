@@ -78,6 +78,14 @@ def forbusiness():
 def coupon():
     return render_template("coupon.html")
 
+@app.route("/redeemcoupon")
+def redeemcoupon():
+    return render_template("redeemcoupon.html")
+
+@app.route("/applycoupon")
+def applycoupon():
+    return render_template("applycoupon.html")
+
 
 
 
