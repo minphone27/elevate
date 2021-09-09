@@ -70,7 +70,13 @@ def blgs():
 def resourcelibrary():
     return render_template("resourcelibrary.html")
 
+@app.route("/forbusiness")
+def forbusiness():
+    return render_template("forbusiness.html")
 
+@app.route("/coupon")
+def coupon():
+    return render_template("coupon.html")
 
 
 
